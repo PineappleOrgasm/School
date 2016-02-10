@@ -31,7 +31,7 @@
 			<div class="section content-width">
 				<h1>We are <span>Webpaint</span></h1>
 				<p class="info">digital & branding agency based in Jupiter and we would love to turn ideas into beautiful things.</p>
-				<button class="see-portfolio-btn">See portfolio</button></a>
+				<a href="#portfolio"><button class="see-portfolio-btn">See portfolio</button></a>
 			</div>	</div>		
 	
 	<div class="services-wrapper">				
@@ -61,7 +61,7 @@
 			
 	<div class="portfolio-wrapper">				
 			<div class="portfolio content-width">
-				<h2 class="head">Our Featured Works</h2>
+				<h2 class="head"><a name="portfolio"></a>Our Featured Works</h2>
 				<p class="sub-head">Curabitur blandit tempus porttitor. Maecenas faucibus mollis interdum.</p>
 				<div class="buttons">
 					<button class="btn-small active" id="all-btn">ALL</button>
@@ -221,14 +221,14 @@
 $('#all-btn').on('click', function(){
 	 $('.btn-small').removeClass('active');
 	 $(this).toggleClass("active");
-	$('.portfolio-item').removeClass('hiden')
+	$('.portfolio-items-wrapper div').removeClass('hiden')
 	 
 })
 
 $('#graphic-btn').on('click', function(){
 	 $('.btn-small').removeClass('active')
 	 $(this).toggleClass("active");
-	 $('.portfolio-item').addClass('hiden');
+	 $('.portfolio-items-wrapper div').addClass('hiden');
 	 $('.graphic').removeClass('hiden')
 	 
 })
@@ -236,7 +236,7 @@ $('#graphic-btn').on('click', function(){
 $('#illustration-btn').on('click', function(){
 	 $('.btn-small').removeClass('active');
 	 $(this).toggleClass("active");
-	 $('.portfolio-item').addClass('hiden');
+	 $('.portfolio-items-wrapper div').addClass('hiden');
 	 $('.illustration').removeClass('hiden')
 	 
 })
@@ -244,7 +244,7 @@ $('#illustration-btn').on('click', function(){
 $('#motion-btn').on('click', function(){
 	 $('.btn-small').removeClass('active')
 	 $(this).toggleClass("active");
-	 $('.portfolio-item').addClass('hiden');
+	 $('.portfolio-items-wrapper div').addClass('hiden');
 	 $('.motion').removeClass('hiden')
 	 
 })

@@ -19,7 +19,7 @@ body{
 .services-wrapper,
 .portfolio-wrapper,
 .footer-wrapper{
-	width: 1600px;
+	
 	margin: 0 auto;
 }
 
@@ -207,13 +207,15 @@ header .navigation a:hover{
 	overflow: hidden;
 }
 
-.portfolio .portfolio-item{
+.portfolio-items-wrapper > div {
 	float: left;
-	width: 24%;
-	margin-left: 10px;
-	margin-bottom: 10px;
-	overflow: hidden;
+    width: 24%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
+
+
 
 .portfolio .portfolio-item:first-child{
 	margin-left: 0px;
