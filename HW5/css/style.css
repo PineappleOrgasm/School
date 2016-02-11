@@ -1,0 +1,90 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Sans-serif;
+	font-size: 10px;
+	color: black;
+
+}
+
+.wrapper{
+	width: 770px;
+	height: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header{
+	position: relative;
+	height: 184px;
+	background: url(../img/header-bg.png);
+	
+}
+
+header a{
+	text-decoration: none;
+}
+
+header li{
+	display: inline-block;
+}
+
+
+
+header .header-navigation-bot-bg{
+	position: absolute;
+	bottom: -49px;
+	background: url(../img/header-nav-bot-bg.png);
+	height: 82px;
+	width: 770px;
+}
+
+header .header-navigation-bot, header .header-navigation-top{
+	list-style-type: none;
+	position: absolute;
+	
+}
+
+header .header-navigation-top{
+	right: 0px;
+	top: 0px;
+	padding: 8px 0px;
+	margin: 0px;
+}
+
+header .header-navigation-bot{
+right: 140px;
+bottom: 40px;
+margin: 0px;
+}
+
+header .header-navigation-bot li{
+	margin-left: 27px;
+}
+
+header .header-navigation-top li{
+	margin-right: 46px;
+}
+
+.header-navigation-top li:last-child{
+	margin-right: 15px;
+}
+
+header .header-navigation-bot a{
+	color: #000;
+	font-size: 10px;
+}
+
+header .header-navigation-bot a:hover{
+		color: #5590cb;
+}
+
+.header-navigation-top a{
+	font-size: 11px;
+	color: #002d5a;
+	font-weight: 700;
+}
+
+.header-navigation-top a:hover{
+	text-decoration: underline;
+}
