@@ -7,11 +7,19 @@ body{
 
 }
 
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
 .wrapper{
 	width: 770px;
-	height: 500px;
 	margin: 0 auto;
 	overflow: hidden;
+
 }
 
 header{
@@ -28,8 +36,6 @@ header a{
 header li{
 	display: inline-block;
 }
-
-
 
 header .header-navigation-bot-bg{
 	position: absolute;
@@ -87,4 +93,36 @@ header .header-navigation-bot a:hover{
 
 .header-navigation-top a:hover{
 	text-decoration: underline;
+}
+
+.content-wrapper{
+	overflow: hidden;
+	margin-top: -7px;
+	background: #1a3346;
+
+}
+ .content{
+ 	width: 530px;
+ 	padding-right: 23px;
+ 	padding-top: 69px;
+ 	background: #a1a1f6;
+  }
+
+	.article p{
+		line-height: 15px;
+	}
+	
+ .article-head{
+ 	color: #6699cc;
+	font-size: 12px;
+	font-weight: bold;
+
+  }
+
+.sidebar{
+	width: 200px;
+	
+	padding-top: 76px;
+	background: green;
+	margin-top: -7px;
 }
