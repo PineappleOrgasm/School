@@ -98,18 +98,36 @@ header .header-navigation-bot a:hover{
 .content-wrapper{
 	overflow: hidden;
 	margin-top: -7px;
-	background: #1a3346;
+	
 
 }
  .content{
  	width: 530px;
  	padding-right: 23px;
  	padding-top: 69px;
- 	background: #a1a1f6;
-  }
+ }
+
+.article {
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.article .article-head{
+	margin: 0px;
+	margin-bottom: 18px;
+}
 
 	.article p{
 		line-height: 15px;
+		margin-bottom: 45px;
+	}
+
+	.article a{
+		float: right;
+		color: #6699cc;
+		margin-right: 10px;
+		
+
 	}
 	
  .article-head{
@@ -120,9 +138,24 @@ header .header-navigation-bot a:hover{
   }
 
 .sidebar{
-	width: 200px;
-	
+	width: 200px;	
 	padding-top: 76px;
-	background: green;
+	background:  -webkit-linear-gradient(left, #689bcd, #fff);
+	background:	    -moz-linear-gradient(left, #689bcd, #fff);
+	background:		  -o-linear-gradient(left, #689bcd, #fff);
+	background:		      linear-gradient(left, #689bcd, #fff);
 	margin-top: -7px;
+}
+
+.sidebar-navigation {
+	padding-left: 22px;
+}
+
+.sidebar-navigation li {
+	list-style-type: none;
+	margin-bottom: 2px;
+	padding: 6px 0px;
+	padding-left: 10px;
+	background:  -webkit-linear-gradient(left, #689bcd, #679acc 5%, #edf2f9 85%, #fff 95%);
+
 }
