@@ -26,6 +26,7 @@ header{
 	position: relative;
 	height: 184px;
 	background: url(../img/header-bg.png);
+	z-index: 10;
 	
 }
 
@@ -39,9 +40,9 @@ header li{
 
 header .header-navigation-bot-bg{
 	position: absolute;
-	bottom: -49px;
+	bottom: -51px;
 	background: url(../img/header-nav-bot-bg.png);
-	height: 82px;
+	height: 88px;
 	width: 770px;
 }
 
@@ -98,7 +99,12 @@ header .header-navigation-bot a:hover{
 .content-wrapper{
 	overflow: hidden;
 	margin-top: -7px;
-	
+	background:  -webkit-linear-gradient(left, #689bcd 5%, #fff 25%);
+	background:	    -moz-linear-gradient(left, #689bcd, #fff);
+	background:		  -o-linear-gradient(left, #689bcd, #fff);
+	background:		      linear-gradient(left, #689bcd, #fff);
+	/*position: relative;*/
+
 
 }
  .content{
@@ -138,24 +144,67 @@ header .header-navigation-bot a:hover{
   }
 
 .sidebar{
-	width: 200px;	
+	box-sizing:border-box;
+	width: 196px;	
 	padding-top: 76px;
-	background:  -webkit-linear-gradient(left, #689bcd, #fff);
-	background:	    -moz-linear-gradient(left, #689bcd, #fff);
-	background:		  -o-linear-gradient(left, #689bcd, #fff);
-	background:		      linear-gradient(left, #689bcd, #fff);
+	
 	margin-top: -7px;
+	padding-left: 22px;
 }
 
 .sidebar-navigation {
-	padding-left: 22px;
+	padding: 0px;
 }
 
 .sidebar-navigation li {
 	list-style-type: none;
 	margin-bottom: 2px;
-	padding: 6px 0px;
+	padding: 5px 0px;
 	padding-left: 10px;
-	background:  -webkit-linear-gradient(left, #689bcd, #679acc 5%, #edf2f9 85%, #fff 95%);
+	background:  -webkit-linear-gradient(left, #689bcd, #679acc 25%, #edf2f9 85%, #fff 95%);
 
+}
+
+.sidebar-navigation a{
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.sidebar-navigation a:hover{
+	text-decoration: underline;
+}
+
+.sidebar-navigation a:active{
+	color: #002d5a;
+	text-decoration: underline;
+}
+
+.sidebar h2{
+	color: #fff;
+	font-size: 12px;
+	margin-top: 112px;
+}
+
+.sidebar p{
+	margin-top: 19px;
+	padding-right: 15px;
+}
+
+footer{
+	float: left;
+	width: 100%;
+	/*position: absolute;*/
+	/*bottom: 0px;*/
+	height: 70px;
+	background: url(../img/footer-bg.png);
+	margin-top: 2px;
+}
+
+footer p{
+	color: #fff;
+	float: right;
+	margin-top: 50px;
+	margin-right: 23px;
 }
